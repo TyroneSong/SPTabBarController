@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC4CBCF2A1AFBC70056D163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBCE2A1AFBC70056D163 /* AppDelegate.swift */; };
+		3CC4CBD12A1AFBC70056D163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBD02A1AFBC70056D163 /* SceneDelegate.swift */; };
+		3CC4CBD32A1AFBC70056D163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBD22A1AFBC70056D163 /* ViewController.swift */; };
+		3CC4CBD62A1AFBC70056D163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CBD42A1AFBC70056D163 /* Main.storyboard */; };
+		3CC4CBD82A1AFBC80056D163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CBD72A1AFBC80056D163 /* Assets.xcassets */; };
+		3CC4CBDB2A1AFBC80056D163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CBD92A1AFBC80056D163 /* LaunchScreen.storyboard */; };
+		3CC4CBE62A1AFC880056D163 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC4CBE52A1AFC880056D163 /* Lottie */; };
+		3CC4CBEA2A1AFD770056D163 /* pop in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC4CBE92A1AFD770056D163 /* pop */; };
+		3CC4CBEE2A1AFDF50056D163 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBED2A1AFDF50056D163 /* ExampleBasicContentView.swift */; };
+		3CC4CBF12A1AFEAC0056D163 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBF02A1AFEAC0056D163 /* ExampleBackgroundContentView.swift */; };
+		3CC4CBF92A1B02C60056D163 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CBF82A1B02C60056D163 /* ExampleHighlightableContentView.swift */; };
+		3CC4CC032A1B06150056D163 /* SPTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC4CC022A1B06150056D163 /* SPTabBarController */; };
+		3CC4CC062A1B07FD0056D163 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC052A1B07FD0056D163 /* ExampleBouncesContentView.swift */; };
+		3CC4CC092A1B09010056D163 /* ExampleIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC082A1B09010056D163 /* ExampleIrregularityBasicContentView.swift */; };
+		3CC4CC222A1B381A0056D163 /* ExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC212A1B381A0056D163 /* ExampleProvider.swift */; };
+		3CC4CC242A1B38450056D163 /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC232A1B38450056D163 /* ExampleTipsContentView.swift */; };
+		3CC4CC262A1B39F20056D163 /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC252A1B39F20056D163 /* ExampleAnimateTipsContentView.swift */; };
+		3CC4CC2A2A1B3B280056D163 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CC282A1B3B280056D163 /* IconTransitions.json */; };
+		3CC4CC2B2A1B3B280056D163 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CC292A1B3B280056D163 /* LottieLogo1.json */; };
+		3CC4CC2D2A1B3B5C0056D163 /* ExampleLottieAnimateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC2C2A1B3B5C0056D163 /* ExampleLottieAnimateContentView.swift */; };
+		3CC4CC302A1B3CF80056D163 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC2F2A1B3CF80056D163 /* WebViewController.swift */; };
+		3CC4CC322A1B3D800056D163 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4CC312A1B3D800056D163 /* WebView.storyboard */; };
+		3CC4CC342A1B412B0056D163 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC332A1B412B0056D163 /* ExampleViewController.swift */; };
+		3CC4CC362A1B42B10056D163 /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4CC352A1B42B10056D163 /* ExampleNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CC4CBCB2A1AFBC70056D163 /* SPTabBarControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTabBarControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC4CBCE2A1AFBC70056D163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CC4CBD02A1AFBC70056D163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CC4CBD22A1AFBC70056D163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC4CBD52A1AFBC70056D163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CC4CBD72A1AFBC80056D163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC4CBDA2A1AFBC80056D163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CC4CBDC2A1AFBC80056D163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC4CBED2A1AFDF50056D163 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		3CC4CBF02A1AFEAC0056D163 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		3CC4CBF82A1B02C60056D163 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		3CC4CC012A1B06020056D163 /* SPTabBarController */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SPTabBarController; path = ..; sourceTree = "<group>"; };
+		3CC4CC052A1B07FD0056D163 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		3CC4CC082A1B09010056D163 /* ExampleIrregularityBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		3CC4CC212A1B381A0056D163 /* ExampleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProvider.swift; sourceTree = "<group>"; };
+		3CC4CC232A1B38450056D163 /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		3CC4CC252A1B39F20056D163 /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		3CC4CC282A1B3B280056D163 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		3CC4CC292A1B3B280056D163 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		3CC4CC2C2A1B3B5C0056D163 /* ExampleLottieAnimateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLottieAnimateContentView.swift; sourceTree = "<group>"; };
+		3CC4CC2F2A1B3CF80056D163 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3CC4CC312A1B3D800056D163 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		3CC4CC332A1B412B0056D163 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		3CC4CC352A1B42B10056D163 /* ExampleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC4CBC82A1AFBC70056D163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4CBEA2A1AFD770056D163 /* pop in Frameworks */,
+				3CC4CC032A1B06150056D163 /* SPTabBarController in Frameworks */,
+				3CC4CBE62A1AFC880056D163 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC4CBC22A1AFBC70056D163 = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC002A1B06020056D163 /* Packages */,
+				3CC4CBCD2A1AFBC70056D163 /* SPTabBarControllerExample */,
+				3CC4CBCC2A1AFBC70056D163 /* Products */,
+				3CC4CBF42A1B009F0056D163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC4CBCC2A1AFBC70056D163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CBCB2A1AFBC70056D163 /* SPTabBarControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC4CBCD2A1AFBC70056D163 /* SPTabBarControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC2E2A1B3CC00056D163 /* Me */,
+				3CC4CBEB2A1AFDDF0056D163 /* Content */,
+				3CC4CBCE2A1AFBC70056D163 /* AppDelegate.swift */,
+				3CC4CBD02A1AFBC70056D163 /* SceneDelegate.swift */,
+				3CC4CBD22A1AFBC70056D163 /* ViewController.swift */,
+				3CC4CC212A1B381A0056D163 /* ExampleProvider.swift */,
+				3CC4CC332A1B412B0056D163 /* ExampleViewController.swift */,
+				3CC4CC352A1B42B10056D163 /* ExampleNavigationController.swift */,
+				3CC4CBD42A1AFBC70056D163 /* Main.storyboard */,
+				3CC4CBD72A1AFBC80056D163 /* Assets.xcassets */,
+				3CC4CBD92A1AFBC80056D163 /* LaunchScreen.storyboard */,
+				3CC4CBDC2A1AFBC80056D163 /* Info.plist */,
+			);
+			path = SPTabBarControllerExample;
+			sourceTree = "<group>";
+		};
+		3CC4CBEB2A1AFDDF0056D163 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC272A1B3B100056D163 /* Lotttie */,
+				3CC4CC0A2A1B0C900056D163 /* Tips */,
+				3CC4CC072A1B08F30056D163 /* Irregularity */,
+				3CC4CC042A1B07F60056D163 /* Bounces */,
+				3CC4CBF72A1B02BC0056D163 /* Highlight */,
+				3CC4CBEF2A1AFEA30056D163 /* Background */,
+				3CC4CBEC2A1AFDE90056D163 /* Basic */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		3CC4CBEC2A1AFDE90056D163 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CBED2A1AFDF50056D163 /* ExampleBasicContentView.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		3CC4CBEF2A1AFEA30056D163 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CBF02A1AFEAC0056D163 /* ExampleBackgroundContentView.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		3CC4CBF42A1B009F0056D163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CC4CBF72A1B02BC0056D163 /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CBF82A1B02C60056D163 /* ExampleHighlightableContentView.swift */,
+			);
+			path = Highlight;
+			sourceTree = "<group>";
+		};
+		3CC4CC002A1B06020056D163 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC012A1B06020056D163 /* SPTabBarController */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		3CC4CC042A1B07F60056D163 /* Bounces */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC052A1B07FD0056D163 /* ExampleBouncesContentView.swift */,
+			);
+			path = Bounces;
+			sourceTree = "<group>";
+		};
+		3CC4CC072A1B08F30056D163 /* Irregularity */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC082A1B09010056D163 /* ExampleIrregularityBasicContentView.swift */,
+			);
+			path = Irregularity;
+			sourceTree = "<group>";
+		};
+		3CC4CC0A2A1B0C900056D163 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC232A1B38450056D163 /* ExampleTipsContentView.swift */,
+				3CC4CC252A1B39F20056D163 /* ExampleAnimateTipsContentView.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		3CC4CC272A1B3B100056D163 /* Lotttie */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC282A1B3B280056D163 /* IconTransitions.json */,
+				3CC4CC292A1B3B280056D163 /* LottieLogo1.json */,
+				3CC4CC2C2A1B3B5C0056D163 /* ExampleLottieAnimateContentView.swift */,
+			);
+			path = Lotttie;
+			sourceTree = "<group>";
+		};
+		3CC4CC2E2A1B3CC00056D163 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4CC2F2A1B3CF80056D163 /* WebViewController.swift */,
+				3CC4CC312A1B3D800056D163 /* WebView.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC4CBCA2A1AFBC70056D163 /* SPTabBarControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC4CBDF2A1AFBC80056D163 /* Build configuration list for PBXNativeTarget "SPTabBarControllerExample" */;
+			buildPhases = (
+				3CC4CBC72A1AFBC70056D163 /* Sources */,
+				3CC4CBC82A1AFBC70056D163 /* Frameworks */,
+				3CC4CBC92A1AFBC70056D163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPTabBarControllerExample;
+			packageProductDependencies = (
+				3CC4CBE52A1AFC880056D163 /* Lottie */,
+				3CC4CBE92A1AFD770056D163 /* pop */,
+				3CC4CC022A1B06150056D163 /* SPTabBarController */,
+			);
+			productName = SPTabBarControllerExample;
+			productReference = 3CC4CBCB2A1AFBC70056D163 /* SPTabBarControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC4CBC32A1AFBC70056D163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3CC4CBCA2A1AFBC70056D163 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3CC4CBC62A1AFBC70056D163 /* Build configuration list for PBXProject "SPTabBarControllerExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC4CBC22A1AFBC70056D163;
+			packageReferences = (
+				3CC4CBE42A1AFC880056D163 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				3CC4CBE82A1AFD770056D163 /* XCRemoteSwiftPackageReference "pop" */,
+			);
+			productRefGroup = 3CC4CBCC2A1AFBC70056D163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC4CBCA2A1AFBC70056D163 /* SPTabBarControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC4CBC92A1AFBC70056D163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4CBDB2A1AFBC80056D163 /* LaunchScreen.storyboard in Resources */,
+				3CC4CBD82A1AFBC80056D163 /* Assets.xcassets in Resources */,
+				3CC4CBD62A1AFBC70056D163 /* Main.storyboard in Resources */,
+				3CC4CC2B2A1B3B280056D163 /* LottieLogo1.json in Resources */,
+				3CC4CC322A1B3D800056D163 /* WebView.storyboard in Resources */,
+				3CC4CC2A2A1B3B280056D163 /* IconTransitions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC4CBC72A1AFBC70056D163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4CBF12A1AFEAC0056D163 /* ExampleBackgroundContentView.swift in Sources */,
+				3CC4CBD32A1AFBC70056D163 /* ViewController.swift in Sources */,
+				3CC4CC222A1B381A0056D163 /* ExampleProvider.swift in Sources */,
+				3CC4CC062A1B07FD0056D163 /* ExampleBouncesContentView.swift in Sources */,
+				3CC4CBF92A1B02C60056D163 /* ExampleHighlightableContentView.swift in Sources */,
+				3CC4CBEE2A1AFDF50056D163 /* ExampleBasicContentView.swift in Sources */,
+				3CC4CC092A1B09010056D163 /* ExampleIrregularityBasicContentView.swift in Sources */,
+				3CC4CC262A1B39F20056D163 /* ExampleAnimateTipsContentView.swift in Sources */,
+				3CC4CBCF2A1AFBC70056D163 /* AppDelegate.swift in Sources */,
+				3CC4CBD12A1AFBC70056D163 /* SceneDelegate.swift in Sources */,
+				3CC4CC2D2A1B3B5C0056D163 /* ExampleLottieAnimateContentView.swift in Sources */,
+				3CC4CC342A1B412B0056D163 /* ExampleViewController.swift in Sources */,
+				3CC4CC302A1B3CF80056D163 /* WebViewController.swift in Sources */,
+				3CC4CC362A1B42B10056D163 /* ExampleNavigationController.swift in Sources */,
+				3CC4CC242A1B38450056D163 /* ExampleTipsContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CC4CBD42A1AFBC70056D163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC4CBD52A1AFBC70056D163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CC4CBD92A1AFBC80056D163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC4CBDA2A1AFBC80056D163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CC4CBDD2A1AFBC80056D163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC4CBDE2A1AFBC80056D163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC4CBE02A1AFBC80056D163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG78Z8RY8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SPTabBarControllerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.SPTabBarControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC4CBE12A1AFBC80056D163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG78Z8RY8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SPTabBarControllerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.SPTabBarControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC4CBC62A1AFBC70056D163 /* Build configuration list for PBXProject "SPTabBarControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC4CBDD2A1AFBC80056D163 /* Debug */,
+				3CC4CBDE2A1AFBC80056D163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC4CBDF2A1AFBC80056D163 /* Build configuration list for PBXNativeTarget "SPTabBarControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC4CBE02A1AFBC80056D163 /* Debug */,
+				3CC4CBE12A1AFBC80056D163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CC4CBE42A1AFC880056D163 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		3CC4CBE82A1AFD770056D163 /* XCRemoteSwiftPackageReference "pop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/navartis/pop";
+			requirement = {
+				branch = "1.0.11-vs-spm";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CC4CBE52A1AFC880056D163 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CC4CBE42A1AFC880056D163 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		3CC4CBE92A1AFD770056D163 /* pop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CC4CBE82A1AFD770056D163 /* XCRemoteSwiftPackageReference "pop" */;
+			productName = pop;
+		};
+		3CC4CC022A1B06150056D163 /* SPTabBarController */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SPTabBarController;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CC4CBC32A1AFBC70056D163 /* Project object */;
+}
